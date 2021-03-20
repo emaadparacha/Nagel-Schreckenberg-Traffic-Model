@@ -1,0 +1,2 @@
+module load gcc rarray boost graphviz texlive doxygen gnuplot python/3
+module list
