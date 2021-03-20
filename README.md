@@ -1,4 +1,4 @@
-[//]: # \mainpage
+# Nagel-Schreckenberg Traffic Model (C++)
 
 Program that evolves and plots a 1-D traffic model at a specific timestep according to the Nager-Schreckenberg Model:
 
