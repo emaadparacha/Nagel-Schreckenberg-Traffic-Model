@@ -3,8 +3,11 @@
 Program that evolves and plots a 1-D traffic model at a specific timestep according to the Nager-Schreckenberg Model:
 
 v = min(v + 1, vmax) - If the velocity is below maximum velocity, then increase v by 1 (try to speed up).
+
 v = min(v, d - 1) - If the car in front of the given car is a distance d away, and v is greater than or equal to d, then reduce v to d - 1.
+
 v = v - 1 if v is greater than 0, with probability p - If v is greater than 0 then with probability p the car reduces its speed by 1.
+
 x = x + v - The car moves ahead by v steps (on a circular track).
 
 This code includes the following modules along with their respective headers:
