@@ -36,12 +36,14 @@ On the Teach cluster, run the app and get the trafficData.txt file with:
 
 Following which, you can get the plot of traffic data using
 
-```make plot
+```sh
+   make plot
 ```
 
 And to build the program and get the documentation, use:
 
-```make all
+```sh
+   make all
 ```
 
 To also denerate html and pdf versions of the code documentation using Doxygen, use
